@@ -811,7 +811,13 @@
 </div>
 
 <script>
+   function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
   let isThinking = false;
+  let conversationHistory = [];
+  
 
   function autoResize(el) {
     el.style.height = 'auto';
@@ -867,7 +873,7 @@
     }
   }
 
- let conversationHistory = [];
+ 
 
 async function sendMessage() {
     const input = document.getElementById('input');
