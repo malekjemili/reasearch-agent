@@ -215,18 +215,6 @@ Environment variables are configured in the Render dashboard and injected at run
 
 ---
 
-## CV Summary
-
-```
-Research Assistant Agent | Python · Flask · Groq · Pinecone · ArXiv · Tavily · Docker · Render
-- Autonomous AI agent with hybrid search across ArXiv and the web
-- Persistent cloud vector memory with multi-query RAG (Pinecone)
-- Conversational memory across sessions
-- Containerized with Docker, deployed in production on Render
-```
-
----
-
 ## License
 
 MIT
