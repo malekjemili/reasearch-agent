@@ -6,7 +6,7 @@ An autonomous AI agent that searches scientific literature, memorizes results, a
 
 ## Demo
 
-Live : https://ton-app.onrender.com  
+Live : [https:/reasearch-agent.onrender.com](https://reasearch-agent.onrender.com)  
 GitHub : https://github.com/malekjemili/reasearch-agent
 
 ---
