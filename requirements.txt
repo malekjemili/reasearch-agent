@@ -1,0 +1,10 @@
+groq
+arxiv
+flask
+flask-cors
+python-dotenv
+tavily-python
+pinecone
+numpy
+scikit-learn
+sentence-transformers
