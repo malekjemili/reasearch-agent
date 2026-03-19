@@ -68,11 +68,6 @@ def stats():
 
 
 # Lancer Flask — fonctionne avec Render ET en local
-port = int(os.environ.get("PORT", 5000))
+port = int(os.environ.get("PORT", 8000))
 print(f"Lancement sur 0.0.0.0:{port}", flush=True)
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=port, debug=False)
-else:
-    # Pour Render qui importe le module
-    app.run(host="0.0.0.0", port=port, debug=False)
+app.run(host="0.0.0.0", port=port, debug=False)
