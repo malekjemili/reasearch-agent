@@ -200,14 +200,6 @@ Response :
 
 ---
 
-## Deployment
-
-The application is deployed on Render using Docker. On each push to the `master` branch, Render automatically rebuilds and redeploys the container.
-
-Environment variables are configured in the Render dashboard and injected at runtime — no secrets are stored in the repository.
-
----
-
 ## License
 
 MIT
