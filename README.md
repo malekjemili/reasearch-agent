@@ -4,13 +4,6 @@ An autonomous AI agent that searches scientific literature, memorizes results, a
 
 ---
 
-## Demo
-
-Live : [https:/reasearch-agent.onrender.com](https://reasearch-agent.onrender.com)  
-GitHub : https://github.com/malekjemili/reasearch-agent
-
----
-
 ## Overview
 
 The agent receives a natural language question, decides which source to query (ArXiv, web, or both), retrieves relevant documents, stores them in a persistent vector database, and returns a synthesized answer in French with cited sources.
